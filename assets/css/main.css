@@ -998,7 +998,7 @@ p{
     position: relative;
     overflow: hidden;
 }
-.author_page{padding: 80px 0px;}
+.author_page{padding: 80px 0px 50px 0px;}
 .me_prfl_left_top_img:after {
     content: '';
     position: absolute;
@@ -1032,7 +1032,7 @@ p{
     bottom: -1px;
 }
 .me_cntct_ul li {
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 5px;
 }
 .me_cntct_ul li i {
@@ -1085,7 +1085,8 @@ p{
 .me_prfl_descrb_text {
     margin-bottom: 10px;
 }
-.me_all_info_sec{}
+.me_all_info_sec{
+}
 .me_skil:after {
     width: 72px;
 }
