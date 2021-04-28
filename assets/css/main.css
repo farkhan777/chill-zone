@@ -43,7 +43,7 @@ p{
     border-bottom: 2px solid transparent;
 }
 .menu_right_ul li:hover {
-   border-bottom: 2px solid #001fff;
+   border-bottom: 2px solid #e94560;
 }
 .menu_right_ul li a {
     color: #4a4949;
@@ -223,10 +223,11 @@ p{
     background: #fff;
     background: #fff;
     -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.04);
-    box-shadow: 0 1px 4px rgba(0,0,0,.04);
-    border: 1px solid rgba(0, 0, 0, 0.17);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    /* border: 1px solid rgba(0, 0, 0, 0.17); */
     -webkit-border-radius: 3px;
-    border-radius: 3px;
+    border-radius: 15px;
+    overflow: hidden;
 }
 .home_card_top {
     height: 150px;
@@ -334,7 +335,8 @@ p{
 }
 .{}
 .home_card:hover {
-    box-shadow: 0 4px 5px rgba(0,0,0,.16);
+    transform: scale(1.02, 1.02);
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1);
   /*  border: 1px solid rgba(32,78,207,.3);*/
 }
 .home_card_h2:hover{color: #204ecf;}
