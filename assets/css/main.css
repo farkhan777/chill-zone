@@ -236,6 +236,7 @@ p{
     z-index: 1;
     position: relative;
 }
+
 .home_card_top:after {
     position: absolute;
     content: '';
@@ -456,7 +457,7 @@ p{
 }
 .blog_banner{
     position: relative;
-    background: url(../../img/blog_details_banner.jpg) no-repeat center center;
+    background: url(../../img/Embellish.png) no-repeat center center;
     min-height: 360px;
     z-index: 1;
     background-size: cover;
@@ -1094,6 +1095,11 @@ p{
 /*ABOUT ME END*/
 
 /*GALLERY*/
+.home_card_top_gallery {
+    height: 280px;
+    z-index: 1;
+    position: relative;
+}
 .gallery_page{padding: 50px 0px;}
 .gallery_card_main{overflow: hidden;}
 .gallery_card{
