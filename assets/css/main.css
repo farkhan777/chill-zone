@@ -150,6 +150,7 @@ p{
   background-size: cover;
 }
 
+
 .hero .btn-get-started {
     margin-top: 30px;
     line-height: 0;
@@ -979,8 +980,9 @@ p{
 .cmnt_frm {
     padding: 30px;
     margin-top: 20px;
-    border: 1px solid #eae4e4;
+    /* border: 1px solid #eae4e4; */
     background: #fff;
+    border-radius: 15px;
 }
 .cmnt_input {
     margin-bottom: 30px;
@@ -1007,14 +1009,14 @@ p{
     padding: 11px 30px;
     background: #4d70d2;
     border: none;
-    border-radius: 0;
+    border-radius: 20px;
     color: #fff;
     font-weight: 600;
     font-family: "Open Sans", sans-serif;
     text-transform: uppercase;
     transition: 0.5s ease;
 }
-.dtls_frm_btn button:hover{ background: #204ecf;}
+.dtls_frm_btn button:hover{ background: #e94560;}
 .fb {
     background-color: #3b5998;
 }
@@ -1129,8 +1131,11 @@ p{
 .me_prfl_left_top_img {
     position: relative;
     overflow: hidden;
+    border-radius: 15px;
 }
-.author_page{padding: 80px 0px 50px 0px;}
+.author_page{
+    padding: 50px 0px 50px 0px;
+}
 .me_prfl_left_top_img:after {
     content: '';
     position: absolute;
