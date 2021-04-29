@@ -602,7 +602,7 @@ p{
     overflow: hidden;
 }
 .home_card_top {
-    height: 150px;
+    height: 178px;
     z-index: 1;
     position: relative;
 }
@@ -681,7 +681,7 @@ p{
 .home_card_btm_left img{border-radius: 50%;}
 .home_card_btm_r8 {
     flex: 1;
-    margin-left: 15px;
+    /* margin-left: 15px; */
 }
 .author_name {
     font-weight: 600;
