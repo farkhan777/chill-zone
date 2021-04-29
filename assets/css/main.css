@@ -538,7 +538,7 @@ p{
     margin-bottom: 70px;
 }
 .latest_post_top h1{}
-.{}
+
 .categorie_top_h1{}
 .categorie_top_p{}
 .categorie_top {
@@ -691,7 +691,7 @@ p{
     margin-top: 2px;
 }
 .home_card_btm_r8_ul li {
-    color: #a0a0a0;
+    color: #585858 !important;
     font-size: 12px;
     margin-right: 10px;
 }
@@ -715,12 +715,7 @@ p{
 .home_card:hover .home_card_top:after {
     visibility: visible;
 }
-.{}
-.{}
-.{}
-.{}
-.{}
-.{}
+
 /*HOME*/
 
 /*FOOTER*/
@@ -809,15 +804,15 @@ p{
   
 }
 .footer_section_social_ul li a i{}
-.{}
-.{}
+
+
 /*FOOTER*/
 
 /*BLOG START*/
 .blog_all{
     padding-bottom: 30px;
 }
-.{}
+
 .catagori_name_h2{
     margin-bottom: 20px;
     font-size: 31px;
@@ -867,7 +862,7 @@ p{
     font-size: 45px;
 }
 .blog_title_btm{}
-.blog_title_btm{}
+
 .blog_title_btm_ul {
     justify-content: center;
     display: flex;
@@ -1119,10 +1114,7 @@ p{
     color: #636161;
     margin-top: 2px;
 }
-.{}
-.{}
-.{}
-.{}
+
 .course_price_top {
     background: #000;
     text-align: center;
