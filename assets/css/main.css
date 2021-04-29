@@ -409,12 +409,18 @@ p{
 .hero .btn-get-started {
     margin-top: 30px;
     line-height: 0;
-    padding: 20px 30px;
-    border-radius: 20px;
+    padding: 25px 35px;
+    border-radius: 10px;
     transition: 0.5s;
     color: #fff;
     background: #4154f1;
     box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+}
+
+@media (max-width: 700px){
+    .hero .btn-get-started .cntr-btn {
+        text-align: center !important;
+    }
 }
 
 .hero .btn-get-started:hover{
@@ -439,7 +445,7 @@ p{
 .hero h2 {
     color: #444444;
     margin: 15px 0 0 0;
-    font-size: 26px;
+    font-size: 22px;
 }
 
 @media (min-width: 1024px) {
@@ -477,7 +483,8 @@ p{
     }
   }
 .banner_sec {
-    background-color: #16213e;
+    /* background-color: #16213e; */
+    background-color: #fff;
     position: relative;
     overflow: hidden;
     padding: 50px 0px;
