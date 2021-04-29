@@ -64,6 +64,7 @@ a:hover{
     color: none;
 }
 a{
+    color: #0c5898;
     transition: .3s all ease;
 }
 /*COL  PADDING AND MARGIN*/
